@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Details</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/product-details.css" />
+    <link rel="stylesheet" href="css/all-font-family.css" />
+  </head>
+  <body>
+    <!-- Navbar con funzione ritorna indietro -->
+    <header>
+      <nav
+        class="navbar navbar-expand-lg bg-dark border-bottom border-body"
+        data-bs-theme="dark"
+      >
+        <div class="container-fluid">
+          <p>
+            <i class="arrow left"></i
+            ><a class="navbar-brand" href="marketplace-main.html"
+              >Epic Marketplace</a
+            >
+          </p>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Container con all'interno il prodotto specifico-->
+    <main class="d-flex align-items-center flex-column">
+      <!-- Nome del specifico prodotto -->
+      <h1 class="product-title mt-5">"Titolo prodotto specifico"</h1>
+
+      <!-- Card con il prodotto, all'interno Descrizione, Brand, Prezzo -->
+      <div class="container-fluid mt-5" id="more-details">
+        <div class="row p-0">
+          <div class="col p-0 d-flex flex-column align-items-center">
+            <!-- Div per l'immagine del prodotto -->
+            <div class="img-product">
+              <img
+                src="img/img-placeholder.webp"
+                alt="product imagine"
+                class="img-fluid"
+              />
+            </div>
+            <!-- Div per le informazioni del prodotto -->
+            <div class="info-product text-center">
+              <p>Brand</p>
+              <p>Descrizione</p>
+              <p>Prezzo</p>
+            </div>
+            <div>
+              <button class="btn btn-primary" id="edit">Edit Product</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script/product-details.js"></script>
+  </body>
+</html>

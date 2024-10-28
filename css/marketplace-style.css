@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d0d5db;
+}
+
+.card {
+  margin: auto;
+  border: 1px solid black;
+  padding: 10px;
+  height: 850px;
+  margin-bottom: 20px;
+}
+
+.card img {
+  height: 500px;
+}
+
+.btn-danger {
+  margin-left: 10px;
+}
