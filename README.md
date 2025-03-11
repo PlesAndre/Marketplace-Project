@@ -18,7 +18,7 @@ Il progetto include anche il codice JavaScript per ciascuna delle pagine e uno s
 ## Installazione e utilizzo
 Clona il repository:
 
-git clone https://github.com/tuo-username/marketplace-project.git
+git clone https://github.com/PlesAndre/Marketplace-Project.git
 
 Apri marketplace-main.html nel tuo browser per visualizzare la pagina principale con gli oggetti in vendita.
 
